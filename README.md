@@ -1,19 +1,18 @@
-# Student Exam Score Prediction Web Application using Python and Streamlit
+# Junilai
+Junilai is an AI-powered exam score prediction application.
+The application helps teachers identify students at risk of scoring below the standard, enabling early intervention.
 
-## Project Information 
-An interactive web application built using Python and Streamlit predicts student exam scores based on factors correlated with exam scores, such as hours studied, attendance, parental involvement, access to resources, previous scores, tutoring sessions, and parental education level. Furthermore, the application considers nominal categorical factors such as learning disabilities, gender, extracurricular activities, internet access, school type, and peer influence. A regression model based on the Random Forest algorithm is used to generate accurate predictions, with an MSE value of 3.159578 on the test data, thus supporting targeted interventions and improving student learning outcomes. The application uses the Student Performance dataset from [Kaggle](https://www.kaggle.com/datasets/lainguyn123/student-performance-factors). 
+The application uses dataset from [Kaggle](https://www.kaggle.com/datasets/lainguyn123/student-performance-factors). 
 
-[Click here to open the Streamlit app](https://predicted-exam-scores.streamlit.app/)
-
-Note: This model is intended for research and demonstration purposes only. Due to differences in assessment standards, curricula, school quality, and cultural contexts, these predictions cannot be directly applied to student evaluations outside the context of the dataset.
-
-## Project Overview
-Student test scores are influenced by internal and external factors. This app helps teachers and educators identify early on the likelihood that students will score below the required standard. By using internal and external factors correlated with test scores with a trained machine learning regression model, the app provides accurate score predictions to support targeted interventions and improve learning outcomes.
+[Click here to open the Streamlit app](https://junilai.streamlit.app/)
 
 ## Application Preview
 This application provides two data input methods:
 
-1. Input manual (singel student) - fill an interactive form.
+1. Demo Video
+[Click here to see a demo](demo/DemoPN.mp4)
+
+2. Input manual (singel student) - fill an interactive form.
 ![alt text](image/prediction-manual.png)
 Users can enter data for one student manually via an interactive
 
@@ -41,16 +40,9 @@ Example XLSX
 | 2                    | 2                   | 80              | 2                 | College                  | FALSE                          | TRUE                           | TRUE               | FALSE               | TRUE               | FALSE             | FALSE                   | FALSE                   | TRUE                     | TRUE                     | FALSE                     | FALSE         | TRUE        | 85         | 20            |
 
 
-## EDA Matplotlib and Seaborn
-
-![alt text](image/Histogram.png)
-
-The plot titled "Exam Score" shows the distribution of exam scores with the majority of students scoring in the 64-70 range.
-
-
-![alt text](image/Heatmap.png)
-
-The plot titled "Correlation Matrix for Numerical Features" displays the correlation between variables to the exam score showing that Hours_Studied and Attendance have a fairly strong relationship with Exam_Score.
+To try this application, you can use the sample dataset provided in this repository.  
+[Download sample_data.csv](./dataset/sample_data.csv)  
+[Donwload sample_data.xlsx](./dataset/sample_data.xlsx)
 
 ## Technologies Used
 - Python
@@ -66,7 +58,7 @@ The plot titled "Correlation Matrix for Numerical Features" displays the correla
 
 ```bash
 1. Clone the repository
-git clone https://github.com/AgiF27/predicted-exam-scores.git
+git clone https://github.com/AgiF27/Junilai.git
 cd predicted-exam-scores
 
 2. Create and activate a virtual environment
