@@ -1,0 +1,16 @@
+Parental_Involvement,Access_to_Resources,Previous_Scores,Tutoring_Sessions,Parental_Education_Level,Extracurricular_Activities_No,Extracurricular_Activities_Yes,Internet_Access_No,Internet_Access_Yes,School_Type_Private,School_Type_Public,Peer_Influence_Negative,Peer_Influence_Neutral,Peer_Influence_Positive,Learning_Disabilities_No,Learning_Disabilities_Yes,Gender_Female,Gender_Male,Attendance,Hours_Studied
+2,2,70,1,College,False,True,False,True,True,False,False,True,False,True,False,True,False,80,15
+2,2,80,2,College,False,True,True,False,True,False,False,False,True,True,False,False,True,85,20
+2,2,60,0,College,True,False,False,True,True,False,True,False,False,False,True,True,False,75,10
+2,2,55,1,College,True,False,True,False,True,False,False,True,False,True,False,False,True,70,12
+2,2,90,3,College,False,True,False,True,True,False,False,False,True,True,False,True,False,90,25
+2,2,85,2,College,True,False,True,False,True,False,True,False,False,False,True,False,True,95,30
+2,2,65,0,College,False,True,False,True,True,False,False,True,False,True,False,True,False,78,14
+2,2,75,1,College,False,True,True,False,True,False,False,False,True,True,False,False,True,82,16
+2,2,78,2,College,True,False,False,True,True,False,False,False,True,False,True,True,False,84,18
+2,2,68,0,College,False,True,True,False,True,False,True,False,False,True,False,False,True,77,13
+2,2,72,1,College,True,False,False,True,True,False,False,True,False,True,False,True,False,79,17
+2,2,88,3,College,False,True,True,False,True,False,False,False,True,False,True,False,True,88,22
+2,2,58,1,College,True,False,False,True,True,False,True,False,False,True,False,True,False,73,11
+2,2,62,0,College,True,False,True,False,True,False,False,True,False,True,False,False,True,76,19
+2,2,95,4,College,False,True,False,True,True,False,False,False,True,False,True,True,False,92,28
