@@ -59,7 +59,7 @@ To try this application, you can use the sample dataset provided in this reposit
 ```bash
 1. Clone the repository
 git clone https://github.com/AgiF27/Junilai.git
-cd predicted-exam-scores
+cd Junilai
 
 2. Create and activate a virtual environment
 python -m venv venv
